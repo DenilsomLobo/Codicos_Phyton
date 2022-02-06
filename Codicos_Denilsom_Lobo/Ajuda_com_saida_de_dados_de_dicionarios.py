@@ -70,7 +70,7 @@ for i, c in enumerate(retorno):
 # [chave / valor in c.items() ] = são as chaves e valores do dicionario exemplo: [Nome: / Matricula: / Data: ]
 # apos os prints das chaves e valores dentro de 1 dicionairo ou seja 3 chaves e 3 valores
 # Eu uso um print para separar de um dicionario do outro, fora do segundo for (for in c.items()) 
-# que esta dentro do primeiro for (foe enumerate(retorno)) ou seja sempre vai dar um espaço a cada indicie ou seja cada dicionario.
+# que esta dentro do primeiro for (for enumerate(retorno)) ou seja sempre vai dar um espaço a cada indicie ou seja cada dicionario.
 # Resultado:
 #A lista de alunos e:
 #Nome:    Denilsom
