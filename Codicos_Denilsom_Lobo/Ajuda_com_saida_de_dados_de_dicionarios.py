@@ -2,7 +2,7 @@
 # Autor: Denilsom Lobo de Souza
 # Data do ínicio: 05/02/2022
 # Data do término: 05/02/2022
-# Atividade 011: Letra A
+# Atividade 011: Letra B
 
 # Crie uma função que receba uma lista de números. Depois retorne duas listas
 # com os números pares, os números ímpares, a quantidade de números pares e
