@@ -26,7 +26,7 @@ def cadastro_alunos():
     """
     listaDeAlunos = []
     aluno = dict()
-    for c in range(0, 3):
+    for c in range(0, 5):
         aluno['Nome'] = str(input(f'{c+1}ª.Nome: '))
         aluno['Matricula'] = int(input(f'{c+1}ª.Matricula: '))
         aluno['Data'] = str(input(f'{c+1}ª.Data de nacimento: '))
