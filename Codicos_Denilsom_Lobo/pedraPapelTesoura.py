@@ -9,7 +9,7 @@
 # Importando as bibliotecas:
 import os
 from random import randint
-
+import time
 
 # Limpando o terminal:
 os.system('cls')
@@ -158,9 +158,12 @@ while(True):
             print('='*80)
             print('Agora e a vez da maquina escolher ... ')
             print()
+            time.sleep(3)
             print('Ela olha friamente para você e prepara sua mão cuidadosamente ...')
             print()
             print('-'*80)
+            time.sleep(3)
+
             escolhaDaMaquina = randint (1, 3)
         if (escolhaDaMaquina + 3 == 4):
             #Casting Maquina:
@@ -176,32 +179,38 @@ while(True):
         if (flag == True):
             print('VAMOS LA !!!')
             print()
+            time.sleep(1.7)
             print('JOOO !!! ...')
             print()
+            time.sleep(1)
             print('KENN !!! ...')
             print()
+            time.sleep(1)
             print('POOO !!! ...')
             print('-'*80)
+            time.sleep(1.7)
         # Texto de resultado de escolhas:
             print("""
-██████╗░░█████╗░████████╗░█████╗░██╗░░░░░██╗░░██╗░█████╗░
-██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗██║░░░░░██║░░██║██╔══██╗
-██████╦╝███████║░░░██║░░░███████║██║░░░░░███████║███████║
-██╔══██╗██╔══██║░░░██║░░░██╔══██║██║░░░░░██╔══██║██╔══██║
-██████╦╝██║░░██║░░░██║░░░██║░░██║███████╗██║░░██║██║░░██║
-╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝  
+▄▄▄▄·  ▄▄▄· ▄▄▄▄▄ ▄▄▄· ▄▄▄▄▄ ▄▄▄· ▄▄▌   ▄ .▄ ▄▄▄·   
+▐█ ▀█▪▐█ ▀█ •██  ▐█ ▀█ •██  ▐█ ▀█ ██•  ██▪▐█▐█ ▀█   
+▐█▀▀█▄▄█▀▀█  ▐█.▪▄█▀▀█  ▐█.▪▄█▀▀█ ██ ▪ ██▀▀█▄█▀▀█   
+██▄▪▐█▐█▪ ▐▌ ▐█▌·▐█▪ ▐▌ ▐█▌·▐█▪ ▐▌▐█▌ ▄██▌▐▀▐█▪ ▐▌  
 ·▀▀▀▀  ▀  ▀  ▀▀▀  ▀  ▀  ▀▀▀  ▀  ▀ .▀▀▀ ▀▀▀ · ▀  ▀   
+
             """)
+            time.sleep(1)
             print()
             print('A maquina mostra sua mão:')
             print()
             print(escolhaDaMaquina)
             flag = True
             print()
+            time.sleep(1.7)
             print('você mostra sua mão: ')
             print()
             print(escolha)
             print('-'*80)
+            time.sleep(1.7)
         # Texto de resultado da disputa:
             print("""
 ▄▄▄  ▄▄▄ ..▄▄ · ▄• ▄▌▄▄▌  ▄▄▄▄▄ ▄▄▄· ·▄▄▄▄        
@@ -283,11 +292,7 @@ while(True):
                     break
                 elif (continuar == 'n'):
                     os.system('cls')
-                    print()
-                    print()
-                    print('='*80)
                     print('Obrigado por ter jogado ...')
-                    print('-'*80)
                     print()
                     print("""
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -341,6 +346,12 @@ while(True):
                     """)
                     exit() 
 
-# Considerações finais: Programa pode ser aprimorado ou programado de varias
-# outras formas, porem feito com o intuito de mostrar que e possivel fazer um 
-# jogo com programaçao de certa forma simples.
+
+
+            
+                    
+
+
+
+
+
